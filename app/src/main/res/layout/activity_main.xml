@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_app" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/profile_overlay" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/screen_padding"
+        android:paddingEnd="@dimen/screen_padding"
+        android:translationY="-25dp">
+
+        <TextView
+            style="@style/ProfileTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="Welcome"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/btnProceed"
+            style="@style/ProfilePrimaryButton"
+            android:layout_marginBottom="32dp"
+            android:text="Proceed" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/ProfileFooterText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="34dp"
+        android:gravity="center"
+        android:text="Created by Tim Nieto" />
+
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="profile_white">#FFFFFFFF</color>
+    <color name="profile_black">#FF000000</color>
+    <color name="profile_overlay">#80000000</color>
+    <color name="profile_hint">#DDDDDD</color>
+    <color name="profile_button_text">#111111</color>
+</resources>

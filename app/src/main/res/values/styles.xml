@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ProfileTitleText">
+        <item name="android:textColor">@color/profile_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ProfileFooterText">
+        <item name="android:textColor">@color/profile_white</item>
+        <item name="android:textSize">@dimen/footer_text_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ProfileBackText">
+        <item name="android:textColor">@color/profile_white</item>
+        <item name="android:textSize">@dimen/back_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="ProfileInput">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/input_height</item>
+        <item name="android:backgroundTint">@color/profile_white</item>
+        <item name="android:textColor">@color/profile_white</item>
+        <item name="android:textColorHint">@color/profile_hint</item>
+        <item name="android:textSize">@dimen/input_text_size</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:layout_marginBottom">@dimen/small_spacing</item>
+    </style>
+
+    <style name="ProfilePrimaryButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:textColor">@color/profile_button_text</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">@color/profile_white</item>
+        <item name="android:elevation">6dp</item>
+    </style>
+
+    <style name="ProfileResultText">
+        <item name="android:textColor">@color/profile_white</item>
+        <item name="android:textSize">@dimen/body_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+</resources>
