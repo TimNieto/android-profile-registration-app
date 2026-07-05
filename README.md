@@ -119,28 +119,6 @@ android-profile-registration-app/
 └── README.md
 ```
 
-## Screenshots
-
-### Welcome Screen
-
-![Welcome Screen](assets/sample-output.png)
-
-### Registration Form with Input Examples
-
-![Registration Form](assets/sample-output2.png)
-
-### Filled Valid Registration Form
-
-![Filled Registration Form](assets/sample-output3.png)
-
-### Profile Summary Result
-
-![Profile Summary Result](assets/sample-output4.png)
-
-### Invalid Input Validation
-
-![Invalid Input Validation](assets/sample-output5.png)
-
 ## How to Run
 
 1. Clone the repository:
@@ -177,6 +155,28 @@ BUILD SUCCESSFUL
 ```powershell
 .\gradlew installDebug
 ```
+
+## Screenshots
+
+### Welcome Screen
+
+![Welcome Screen](assets/sample-output.png)
+
+### Registration Form with Input Examples
+
+![Registration Form](assets/sample-output2.png)
+
+### Filled Valid Registration Form
+
+![Filled Registration Form](assets/sample-output3.png)
+
+### Profile Summary Result
+
+![Profile Summary Result](assets/sample-output4.png)
+
+### Invalid Input Validation
+
+![Invalid Input Validation](assets/sample-output5.png)
 
 ## Functionality Test Cases
 
