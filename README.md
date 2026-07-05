@@ -147,6 +147,7 @@ android-profile-registration-app/
 
 ```bash
 git clone https://github.com/TimNieto/android-profile-registration-app.git
+cd android-profile-registration-app
 ```
 
 2. Open the project in Android Studio.
