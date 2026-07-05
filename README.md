@@ -222,6 +222,7 @@ This project does not use a database. User input is passed between activities us
 ## License
 
 This project is for educational and portfolio purposes only. All rights are reserved.
+
 You may view the source code, but you may not copy, modify, distribute, or use this code without permission from the author.
 
 ## Author
